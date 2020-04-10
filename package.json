@@ -1,0 +1,31 @@
+{
+  "name": "mssql2mongo",
+  "version": "1.0.0",
+  "description": "Transfer MS SQL server tables/views to MongoDB",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@types/mssql": "^6.0.0",
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.0",
+    "mongodb": "^3.5.5",
+    "mssql": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/command-line-usage": "^5.0.1",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramifi/mssql2mongo.git"
+  },
+  "author": "Rami Fishman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramifi/mssql2mongo/issues"
+  },
+  "homepage": "https://github.com/ramifi/mssql2mongo#readme"
+}
